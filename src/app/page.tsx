@@ -18,10 +18,10 @@ export default function Home() {
       <Header />
       <main className="bg-black text-zinc-100">
         {/* Hero — single CTA, centered */}
-        <section className="relative min-h-[90vh] overflow-hidden compute-glow">
+        <section className="relative overflow-hidden compute-glow">
           <div className="pointer-events-none absolute inset-0 compute-grid opacity-60" />
           <div className="pointer-events-none absolute -right-32 top-1/4 h-[520px] w-[520px] rounded-full bg-rose-600/20 blur-[120px]" />
-          <div className="relative z-10 mx-auto flex min-h-[90vh] max-w-5xl flex-col items-center justify-center px-4 pb-24 pt-28 text-center sm:px-6">
+          <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center px-4 pb-16 pt-28 text-center sm:px-6">
             <p className="font-mono text-sm text-zinc-500">
               — B2B SaaS platform that lets companies upload internal documents and provides employees with an
               AI chatbot that answers questions strictly from those documents.
@@ -49,9 +49,9 @@ export default function Home() {
                 Open app
               </Link>
             </div>
-          </div>
-          <div className="relative mx-auto max-w-6xl px-6 pb-16">
-            <HeroTreeVideo />
+            <div className="relative mt-8 w-full max-w-6xl px-1 sm:px-0">
+              <HeroTreeVideo />
+            </div>
           </div>
         </section>
 
